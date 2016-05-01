@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'MademoiselleCamilleL';
+    src: url('Mademoiselle Camille L.ttf');
+}
+
+.hidden {
+  display: none;
+}
+
+div#errorMsg p {
+  color: #F00;
+}
+
+body {
+  font-family: 'Helvetica', serif;
+  font-weight: 300;
+}
+
+a {
+color: #4FB3A2;
+font-weight: 300;
+text-decoration: none;
+}
+
+a:hover {
+color: #3C9C8C;
+text-decoration: blink;
+}
+
+a#viewSource {
+display: block;
+margin: 1.3em 0 0 0;
+border-top: 1px solid #999;
+padding: 1em 0 0 0;
+}
+
+div#links a {
+display: block;
+line-height: 1.3em;
+margin: 0 0 1.5em 0;
+}
+
+div.outputSelector {
+margin: -1.3em 0 2em 0;
+}
+
+@media screen and (min-width: 1000px) {
+/* hack! to detect non-touch devices */
+  div#links a {
+		line-height: 0.8em;
+  }
+}
+
+h1 a {
+font-family: 'MademoiselleCamilleL';
+font-size: 6em;
+margin: -0.4em auto 0 auto;
+white-space: nowrap;
+border-bottom: 1px solid #ccc;
+display: inline-block;
+line-height: 220px;
+}
+
+body {
+font-family: 'Helvetica', serif;
+margin: 0;
+padding: 1em;
+word-break: break-word;
+}
+
+div#container {
+margin: 0 auto 0 auto;
+max-width: 40em;
+padding: 1em 1.5em 1.3em 1.5em;
+}
+
+div#links {
+	padding: 0.5em 0 0 0;
+}
+
+h1 {
+font-family: 'Helvetica', serif;
+font-weight: 500;
+margin: 0 0 0.8em 0;
+margin-left: auto;
+margin-right: auto;
+padding: 0 0 0.2em 0;
+text-align: center;
+}
+
+h2 {
+font-family: 'Helvetica', serif;
+font-size: 1.5em;
+line-height: 1.2em;
+margin: 40px 0 20px;
+color: #985595;
+}
+
+h3 {
+border-top: 1px solid #eee;
+color: #666;
+font-weight: 500;
+margin: 20px 0 10px 0;
+padding: 10px 0 0 0;
+white-space: nowrap;
+}
+
+html {
+/* avoid annoying page width change
+when moving from the home page */
+overflow-y: scroll;
+}
+
+img {
+border: none;
+border-radius: 15px;
+max-width: 100%;
+}
+
+input[type=radio] {
+position: relative;
+top: -1px;
+}
+
+table {
+  width: 100%;
+}
+
+p {
+color: #444;
+font-weight: 300;
+line-height: 1.6em;
+}
+
+p#data {
+border-top: 1px dotted #666;
+font-family: Courier New, monospace;
+line-height: 1.3em;
+max-height: 1000px;
+overflow-y: auto;
+padding: 1em 0 0 0;
+}
+
+p.borderBelow {
+border-bottom: 1px solid #aaa;
+padding: 0 0 20px 0;
+}
+
+section p:last-of-type {
+margin: 0;
+}
+
+section {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 30px 0;
+  padding: 0 0 20px 0;
+}
+
+section:last-of-type {
+  border-bottom: none;
+  padding: 0 0 1em 0;
+}
+
+h1 span {
+  white-space: nowrap;
+}
+
+strong {
+  font-weight: 500;
+}
